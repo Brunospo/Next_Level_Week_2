@@ -44,7 +44,13 @@ body, input, button, textarea{
     color: var(--color-text-base);
 }
 
-#container{
-    width: 90vh;
-    max-width: 700px; /*Pega 90vh ou entao atinge o tamanho maximo de 700px usar o border e aumentar e diminuir a tela para ver  */
+#container{    
+    width: 90vw;
+    max-width: 700px; /*Pega 90vw ou entao atinge o tamanho maximo de 700px. Usar o border e aumentar e diminuir a tela para ver  */
+}
+
+@media(min-width: 700px){
+    :root{
+        font-size: 62.5%;
+    }
 }

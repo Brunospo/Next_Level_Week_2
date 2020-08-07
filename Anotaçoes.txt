@@ -33,6 +33,10 @@ arquivo page-landing.css
 -> justify-content: space-evenly: Dá um espaçamento constante entre os elementos.
 
 -> A tag <fieldset> serve para criar agrupamentos de dados e tem que usar com a tag <legend> 
+
+-> O atributo defer da tag <script> faz com que o arquivo JS carrege depois de toda a pagina HTML. Com ele nao 
+precisamos colocar o arquivo JS no final da pagina.
+
 ----------Downloads----------
 -> Extensao 'Live Server' para salvar os arquivos html e atualizar a pagina automaticamente.
 OBS: Tem q abrir o arquivo clicando no botao esquerdo e selecionar 'open with live server'.

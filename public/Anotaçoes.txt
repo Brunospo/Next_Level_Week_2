@@ -71,4 +71,6 @@ coloca o p na frente do .(ponto) e o nome da classe.
 deixar claro que isso se aplica somente ao projeto na maquina do dev. Depois disso, vai no packet.jason, em scripts, apaga 
 toda a linha do test e digita "dev": "nodemon src/server.js" (com as aspas). Salva e vai no terminal do vs code e digita: npm run dev
 
-->
+-> Instalar BD: npm install sqlite-async
+
+-> Instalou a extensao sqlite no vs code
